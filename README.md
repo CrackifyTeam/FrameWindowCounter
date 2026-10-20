@@ -1,4 +1,4 @@
-# Temu Frame Perfect Counter
+# tFPC: Frame Window Counter from Temu
 
 An independently implemented **Geometry Dash Geode mod prototype** focused on recording the input timeline, displaying colored press markers, and exporting run data for analysis.
 
