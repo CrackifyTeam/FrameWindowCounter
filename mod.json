@@ -1,0 +1,31 @@
+{
+  "geode": "v5.10.1",
+  "gd": {
+    "android": "2.2081"
+  },
+  "id": "temu.frame-perfect-counter",
+  "name": "Temu Frame Perfect Counter",
+  "version": "v0.1.0",
+  "developer": "TemuFPC",
+  "description": "An independent input timeline recorder with a HUD, colored press markers, and CSV export.",
+  "settings": {
+    "show-markers": {
+      "name": "Show input markers",
+      "description": "Draw a colored marker at the player's position when a press is recorded.",
+      "type": "bool",
+      "default": true
+    },
+    "record-inputs": {
+      "name": "Record inputs",
+      "description": "Record press and release events for CSV analysis.",
+      "type": "bool",
+      "default": true
+    },
+    "reset-on-death": {
+      "name": "Reset data on death",
+      "description": "Start a fresh recording after a death.",
+      "type": "bool",
+      "default": true
+    }
+  }
+}
